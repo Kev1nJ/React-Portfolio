@@ -1,7 +1,7 @@
 // Bringing in the required import from 'react-router-dom'
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/UI/Header';
 import AboutMe from './components/UI/AboutMe';
 import Portfolio from './components/UI/Portfolio';
@@ -18,6 +18,10 @@ function App() {
     <>
       <Header/>
       <Navigation currentPage={currentPage} />
+      <AboutMe/>
+      <Portfolio/>
+      <Contact/>
+      <Resume/>
       <Footer/>
 
     </>
