@@ -1,18 +1,23 @@
-
+import React from 'react';
 import Header from './components/UI/Header';
-import Portfolio from './components/UI/Portfolio';
-import Contact from './components/UI/Contact';
-import Resume from './components/UI/Resume';
-import ProjectContainer from './components/ProjectContainer';
+import Footer from './components/UI/Footer';
+import Navigation from './components/UI/Navigation';
+import { useLocation, Outlet } from "react-router-dom";
 
-const App = () => (
-  <>
-    <Header />
-    <ProjectContainer />
-    <Portfolio/>
-    <Contact/>
-    <Resume/>
-  </>
-);
+function App() {
+  const currentPage = useLocation().pathname;
+  return (
+    <>
+      <Header/>
+      <Navigation currentPage={currentPage} />
+      <div className="container">
+        <Outlet />
+      </div>
+      
+      <Footer/>
+   
+    </>
+  );
+}
 
 export default App;
