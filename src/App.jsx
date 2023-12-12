@@ -9,7 +9,7 @@ import Contact from './components/UI/Contact';
 import Resume from './components/UI/Resume';
 import Footer from './components/UI/Footer';
 import Navigation from './components/UI/Navigation';
-import { useLocation } from "react-router-dom";
+import { useLocation, Outlet } from "react-router-dom";
 
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
