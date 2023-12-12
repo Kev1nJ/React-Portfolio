@@ -1,13 +1,13 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
-import Header from './components/UI/Header';
+// import Header from './components/UI/Header';
 import AboutMe from './components/UI/AboutMe';
 import Portfolio from './components/UI/Portfolio';
 import Contact from './components/UI/Contact';
 import Resume from './components/UI/Resume';
-import Footer from './components/UI/Footer';
-import Navigation from './components/UI/Navigation';
+// import Footer from './components/UI/Footer';
+// import Navigation from './components/UI/Navigation';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 const router = createBrowserRouter([
