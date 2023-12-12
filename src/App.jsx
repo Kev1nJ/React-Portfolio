@@ -23,7 +23,9 @@ function App() {
       <Contact/>
       <Resume/>
       <Footer/>
-
+      <div className="container">
+        <Outlet />
+      </div>
     </>
   );
 }
