@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
 2. Install dependencies:
 
    ```bash
-   npm install
+   npm install react , npm isntall react-router, npm install react-router-dom, npm install vite
    ```
 
 ## Usage
